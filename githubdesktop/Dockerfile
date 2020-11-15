@@ -1,4 +1,4 @@
-FROM centos:7
+FROM alpine:latest
 
 WORKDIR /
 RUN wget https://desktop.githubusercontent.com/releases/2.5.7-cfea2832/GitHubDesktopSetup.exe
